@@ -1,19 +1,28 @@
 /* Color Palette
-#CCE8CC     light green
-#F6EFEE     tan
-#E2B6CF     light rose
-#E396DF     light hot pink
-#E365C1     hot pink
+#C78283     old rose
+#F3D9DC     pale pink
+#D7BEA8     desert sand
+#B49286     tuscany
+#744253     catawba 
 */
 
 
 
 /* Global Styles
 ----------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+before, after {
+  box-sizing: inherit;
+}
 body {
-   color: black;
+  color: black;
 	margin: 0;
 	padding: 0;
+  font-family: Raleway;
+  font-size: 15px;
+  font-height: 1.5;
 }
 
 img {
@@ -21,44 +30,65 @@ img {
 }
 
 a {
-    color: #E365C1;
+    color: #744253;
 }
 a:hover {
     text-decoration: none;
 }
-
+h2 {
+  margin: 0;
+}
 .content-wrap {
 	width: 800px;
-	margin: 0 auto;
+  margin: 0 auto;
+  padding: 60px 0;
 }
+
 /* Profile
 ----------------------------------------------*/
 header {
-    background: #CCE8CC; 
+    background: #C78283;
+    font-family: Yeseva One;
+    font-weight: 400;
+    margin: 0;
 }
-
-
-
+h1 {
+  size: 100px;
+  line-height:1;
+}
 /* Projects
 ----------------------------------------------*/
 .projects {
-    background: #E2B6CF;
+    background: #F3D9DC;
 }
 
 .projects .btn a {
-    color: #CCE8CC;
-    background: rgb(85, 84, 84);
+    color: #E9E3E6;
+    background: #744253;
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
 }
 
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px solid #744253;
+  padding: 25px 0;
+}
 
+.project-item img {
+  float: left;
+  margin-righ: 20px;
+}
+
+.project-item h3 {
+  margin:0;
+}
 
 /* Work Experience
 ----------------------------------------------*/
 .work-experience {
-    background: #E396DF;
+    background: #D7BEA8;
 }
 
 
@@ -66,7 +96,7 @@ header {
 /* Education
 ----------------------------------------------*/
 .education {
-    background: #E2B6CF;
+    background: #744253;
 }
 
 
